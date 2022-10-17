@@ -1,0 +1,101 @@
+body {
+    background-color: #0e0e0e;
+}
+
+header h1 {
+    color: #f1f1f1;
+    font-size: 8.3rem;
+    text-align: center;
+    margin: 32px 0 16px;
+}
+
+header h1 span {
+    color: #f00;
+    font-size: 8.3rem;
+}
+
+header .pitch {
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    color: #0e0e0e;
+    width: 60%;
+    margin: 0 auto 64px;
+    font-size: 8rem;
+    padding: 8px 24px;
+}
+
+header .pitch span {
+    color: #0e0e0e;
+    font-size: 5.5rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 124px 30px;
+    gap: 16px;
+}
+
+.why, .what, .who, .how, .when {
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+}
+
+.why {
+    background-color: #FFDFE9;
+}
+
+.what {
+    background-color: #B8F19E;
+}
+
+.who {
+    background-color: #FFFFE6;
+}
+
+.how {
+    background-color: #9DEEE9;
+}
+
+.when {
+    background-color: #D9B4EF;
+}
+
+label {
+    font-size: 3.2rem;
+    text-align: left;
+    padding-bottom: 16px;
+}
+
+label i {
+    padding-right: 4px;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    height: 124px;
+    resize: none;
+    padding: 8px;
+    font-size: 2.4rem;
+    color: #545454;
+    background-color: #f1f1f117;
+}
+
+.requirements {
+    grid-column: 2;
+    grid-row: 2 / span 3;
+}
+
+.requirements textarea {
+    height: 340px;
+}
+
+.restrictions {
+    grid-row: 3;
+    grid-column: 3 / 5;
+    width: 100%;
+}

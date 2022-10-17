@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0e0e0e;
+    font-family: 'Iceland', cursive;
+    font-size: 62.5%;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quadro de Project Model Canvas interativo para uma equipe planejar seu projeto">
+    <meta name="author" content="Sarah Schneider">
+
+    <title>Project Model Canvas</title>
+
+    <script src="https://kit.fontawesome.com/9b2c422549.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Canvas Board da Equipe <span id="team-name"></span></h1>
+    
+        <div class="pitch"> 
+            <p>Pitch: <span id="pitch"></span></p>
+        </div>
+    </header>
+
+    <main>
+        <div class="justification why square">
+            <label for="justification">
+                <i class="fa-solid fa-question"></i>
+                Justificativa
+            </label>
+            <textarea name="justification" id="justification" placeholder="Porque o seu projeto está sendo criado?" required></textarea>
+        </div>
+
+        <div class="product what square">
+            <label for="product">
+                <i class="fa-solid fa-wrench"></i>
+                Produto
+            </label>
+            <textarea name="product" id="product" placeholder="O que é o seu produto?" required></textarea>
+        </div>
+
+        <div class="stakeholders who square">
+            <label for="stakeholders">
+                <i class="fa-solid fa-crown"></i>
+                Stakeholders
+            </label>
+            <textarea name="stakeholders" id="stakeholders" placeholder="Quem são os Stakeholders do projeto?" required></textarea>
+        </div>
+
+        <div class="premisses how square">
+            <label for="premisses">
+                <i class="fa-solid fa-clipboard"></i>
+                Premissas
+            </label>
+            <textarea name="premisses" id="premisses" placeholder="Quais são as premissas do Gerente do Projeto?" required></textarea>
+        </div>
+
+        <div class="risks when square">
+            <label for="risks">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                Riscos
+            </label>
+            <textarea name="risks" id="risks" placeholder="Quais são os riscos globais e específicos do projeto?" required></textarea>
+        </div>
+
+        <div class="goals why square">
+            <label for="goals">
+                <i class="fa-solid fa-bullseye"></i>
+                Obj Smart
+            </label>
+            <textarea name="goals" id="goals" placeholder="Qual o Objetivo Smart do projeto?" required></textarea>
+        </div>
+
+        <div class="requirements what rectangle">
+            <label for="requirements">
+                <i class="fa-solid fa-gear"></i>
+                Requisitos
+            </label>
+            <textarea name="requirements" id="requirements" placeholder="Quais são os requisitos necessário e desejáveis do projeto?" required></textarea>
+        </div>
+
+        <div class="team who square">
+            <label for="team">
+                <i class="fa-solid fa-users"></i>
+                Equipe
+            </label>
+            <textarea name="team" id="team" placeholder="Quem faz parte da equipe do projeto?" required></textarea>
+        </div>
+
+        <div class="delivery how square">
+            <label for="delivery">
+                <i class="fa-solid fa-list-check"></i>
+                G de Entrega
+            </label>
+            <textarea name="delivery" id="delivery" placeholder="Qual é o Grupo de Entrega do projeto?" required></textarea>
+        </div>
+
+        <div class="timeline when square">
+            <label for="timeline">
+                <i class="fa-solid fa-clock"></i>
+                L. do Tempo
+            </label>
+            <textarea name="timeline" id="timeline" placeholder="Qual é a Linha do Tempo desse projeto?" required></textarea>
+        </div>
+
+        <div class="benefits why square">
+            <label for="benefits">
+                <i class="fa-solid fa-chart-simple"></i>
+                Benefícios
+            </label>
+            <textarea name="benefits" id="benefits" placeholder="Quais são os benefícios que esse projeto pode gerar?" required></textarea>
+        </div>
+
+        <div class="restrictions how rectangle">
+            <label for="restrictions">
+                <i class="fa-regular fa-circle-xmark"></i>
+                Restrições
+            </label>
+            <textarea name="restrictions" id="restrictions" placeholder="Quais são as restrições do projeto?" required></textarea>
+        </div>
+
+        <div class="costs when square">
+            <label for="costs">
+                <i class="fa-solid fa-dollar-sign"></i>
+                Custos
+            </label>
+            <textarea name="costs" id="costs" placeholder="Quanto custa esse projeto?" required ></textarea>
+        </div>
+    </main>
+
+    <script text="text/javascript" src="src/js/index.js"></script>
+</body>
+</html>
